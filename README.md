@@ -1,4 +1,4 @@
-# Victor Hugo Alves Almeida
+# Vitrine Salinas
 
 **Criado por Victor Hugo Alves Almeida, Lucas Ferreira da Silva e Pedro Henrique Santos**
 
