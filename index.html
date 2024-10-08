@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Anúncio - Vitrine Salinas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vitrine Salinas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anunciar Produto</a></li>
+                    <li><a href="view.html">Ver Anúncios</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="section active">
+            <h2>Adicionar Anúncio</h2>
+            <form id="ad-form" class="form">
+                <input type="hidden" id="edit-index">
+                <input type="text" id="product-name" class="form-input" placeholder="Nome do Produto" required><br>
+                <textarea id="product-description" class="form-input" placeholder="Descrição do Produto" required></textarea><br>
+                <input type="text" id="product-price" class="form-input" placeholder="Preço" required><br>
+                <input type="text" id="product-contact" class="form-input" placeholder="Contato (Telefone ou Email)" required><br>
+                <input type="file" id="product-image" class="form-input" accept="image/*"><br> <!-- Campo para imagem -->
+                <button type="submit" class="form-button">Anunciar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
